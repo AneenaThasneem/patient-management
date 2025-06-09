@@ -1,0 +1,14 @@
+
+POST http://lb-5f0539fb.elb.localhost.localstack.cloud:4004/api/patients
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Basimicalmboy",
+  "email": "Basimcalhvyuboy@gmail.com",
+  "address": "street 123",
+  "dateOfBirth": "1998-07-14",
+  "registeredDate": "2024-04-09"
+}
+
+
